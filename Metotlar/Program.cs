@@ -24,7 +24,7 @@ namespace Metotlar
 
             Urun[] urunler = new Urun[] { urun1, urun2, urun3 };
 
-            foreach (var item in urunler)
+            foreach (Urun item in urunler)
             {
                 Console.WriteLine(item.Adi);
                 Console.WriteLine(item.Fiyati);
