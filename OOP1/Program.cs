@@ -20,9 +20,8 @@ namespace OOP1
             //camelcase harflerin hepsi küçük
 
             ProductManager productManager = new ProductManager();
-            int sayi = 100;
-            productManager.Add(sayi);
-            Console.WriteLine(sayi);
+           
+          
         }
     }
 }

@@ -15,6 +15,12 @@ namespace Koleksiyonlar
 
             Console.WriteLine();
 
+            List<int> numeralar = new List<int>();
+            numeralar.Add(50);
+
+            Console.WriteLine(numeralar[0]);
+
+
         }
     }
 }
