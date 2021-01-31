@@ -1,0 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace DemoAbstractInterface.Abstract
+{
+    public interface ICustomerService
+    {
+        void SaveToDb(Customer customer);
+    }
+}
